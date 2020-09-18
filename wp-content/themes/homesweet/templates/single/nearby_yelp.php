@@ -1,0 +1,1 @@
+<div id="property-section-nearby_yelp" class="property-section property-nearby_yelp" data-id="<?php the_ID(); ?>"></div>

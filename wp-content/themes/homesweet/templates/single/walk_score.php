@@ -1,0 +1,1 @@
+<div id="property-section-walk_score" class="property-section property-walk_score" data-id="<?php the_ID(); ?>"></div>

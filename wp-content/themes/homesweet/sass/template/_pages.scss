@@ -1,0 +1,104 @@
+// page 1
+.page{
+	.header-default{
+		position: relative;
+		.header-bottom{
+			position:absolute;
+			background: transparent;
+			top: 100%;
+			left: 0;
+			width: 100%;
+			z-index: 9;
+		}
+		.bottom-inner{
+			background:rgba(#13293d,0.9);
+		}
+	}
+}
+.main-content{
+	margin-bottom:$theme-margin;
+}
+body.page{
+	background:#fff;
+}
+// Contact Page
+//----------------------------------
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	min-height: 260px;
+	.rounded{
+		@include rtl-margin-right(10px);
+		color: $white;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			@include font-size(font-size,16px);
+			margin: 13px;
+		}
+	}
+	small{
+		color: darken($text-color, 20%);
+	}
+}
+.no-footer{
+	footer {
+		display: none;
+	}
+}
+// Page Not Found
+//----------------------------------
+.error404{
+	.apus-breadscrumb{
+		margin: 0;
+	}
+}
+.page-404{
+   background: #f0f9fb;
+   .not-found{
+   	padding: 50px 0 45px;
+   	background:#fff;
+   	max-width: 1140px;
+   	margin: 40px auto 80px;
+   }
+   .title-big{
+   		font-size: 150px;
+   		font-weight: 400;
+   		color: #13293d;
+   		margin:0;
+   		line-height: 1;
+   }
+   .page-title{
+   		font-family: $font-family-three;
+	    font-size: 30px;
+	    margin: 0 0 10px;
+	    text-transform: inherit;
+   }
+   .sub-title{
+   		margin: 0 0 20px;
+   }
+   .widget-search{
+   		margin:0 auto 20px;
+   }
+   .btn{
+   	text-transform: initial;
+   	font-family:$font-family-three;
+   }
+}
+.blog-masonry{
+	.post-container{
+		margin-bottom: $theme-margin;
+		background-color: #fafafa;
+	}
+	.information-post {
+		padding: 15px;
+	}
+}
+
+.blog-list-item{
+	border-bottom:1px solid $border-color;
+}
